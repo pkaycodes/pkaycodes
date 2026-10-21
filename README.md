@@ -33,9 +33,11 @@ folder, one database file, no internet required.
 
 ### [SwiftGrab](https://github.com/pkaycodes/swiftgrab)
 
-A zero-dependency Node web app that turns a pasted video link into a download.
-Native extractors for X, TikTok, Facebook, Instagram, Reddit, Vimeo and others,
-with yt-dlp as an optional self-installed fallback and HLS assembled natively.
+A zero-dependency Node web app that turns a pasted video or image link into a
+download. Native extractors for X, TikTok, Facebook, Instagram, Reddit, Vimeo,
+Pinterest and others, with yt-dlp as an optional self-installed fallback and HLS
+assembled natively. Pinterest image pins, direct image URLs and og:image pages
+all use the same download queue as video.
 
 `Node.js` · `HTTP` · `HLS`
 
