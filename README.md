@@ -6,16 +6,16 @@ when the network does not.
 
 ## Featured work
 
-### [CTMS — College Tutorial Management System](https://github.com/pkaycodes/ctms)
+### [CTMS — College Tutorial Management System](https://github.com/pkaycodes/college-tutorial-management-system-thesis)
 
 My final-year thesis: a Django application for tutorial scheduling, attendance,
 student feedback with automatic sentiment tagging, complaints and lecturer
 claims. Administrators, lecturers and students each get their own dashboard,
-and claim eligibility is enforced in the database rather than in the interface.
+and claim eligibility is enforced on the server rather than in the interface.
 
 `Python` · `Django` · `SQLite` · `Bootstrap`
 
-### [UG CTMS API](https://github.com/pkaycodes/ug-ctms)
+### [UG CTMS API](https://github.com/pkaycodes/university-tutorial-claims-api)
 
 The same domain rebuilt as a JSON API — Express, PostgreSQL and JWT — with the
 role rules enforced server-side. Ships with the schema and a seed script that
@@ -41,13 +41,13 @@ with yt-dlp as an optional self-installed fallback and HLS assembled natively.
 
 ## Coursework
 
-- **[Missing Grade Reporting System](https://github.com/pkaycodes/11112468_DCIT205_Assignment1)** —
-  React 18 and Tailwind, seven screens with client-side routing (DCIT 205).
-- **[Department of Computer Science website](https://github.com/pkaycodes/11112468_DCIT205)** —
-  a nine-page static site written without a framework (DCIT 205).
-- **[C# coursework](https://github.com/pkaycodes/csharp-coursework)** —
+- **[Missing Grade Reporting System](https://github.com/pkaycodes/missing-grade-reporting-system-dcit205-2023)** —
+  React 18 and Tailwind, seven screens with client-side routing (DCIT 205, 2023).
+- **[Department of Computer Science website](https://github.com/pkaycodes/cs-department-website-dcit205-2023)** —
+  a nine-page static site written without a framework (DCIT 205, 2023).
+- **[C# coursework](https://github.com/pkaycodes/csharp-coursework-dcit308-318-2025)** —
   console exercises in generics, interfaces, records and JSON persistence
-  (DCIT 308 and DCIT 318).
+  (DCIT 308 and DCIT 318, 2025).
 
 ## Tools
 
