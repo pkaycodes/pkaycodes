@@ -43,8 +43,6 @@ with yt-dlp as an optional self-installed fallback and HLS assembled natively.
 
 - **[Missing Grade Reporting System](https://github.com/pkaycodes/missing-grade-reporting-system-dcit205-2023)** —
   React 18 and Tailwind, seven screens with client-side routing (DCIT 205, 2023).
-- **[Department of Computer Science website](https://github.com/pkaycodes/cs-department-website-dcit205-2023)** —
-  a nine-page static site written without a framework (DCIT 205, 2023).
 - **[C# coursework](https://github.com/pkaycodes/csharp-coursework-dcit308-318-2025)** —
   console exercises in generics, interfaces, records and JSON persistence
   (DCIT 308 and DCIT 318, 2025).
