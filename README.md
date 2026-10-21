@@ -1,4 +1,4 @@
-# Papa Kwame Afrifa-Mensa
+# Papakwame Afrifa Mensa
 
 I build full-stack web applications in Accra, Ghana — Django or Node on the
 server, React or plain HTML/CSS on the client. I like systems that keep working
