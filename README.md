@@ -45,6 +45,9 @@ with yt-dlp as an optional self-installed fallback and HLS assembled natively.
   React 18 and Tailwind, seven screens with client-side routing (DCIT 205).
 - **[Department of Computer Science website](https://github.com/pkaycodes/11112468_DCIT205)** —
   a nine-page static site written without a framework (DCIT 205).
+- **[C# coursework](https://github.com/pkaycodes/csharp-coursework)** —
+  console exercises in generics, interfaces, records and JSON persistence
+  (DCIT 308 and DCIT 318).
 
 ## Tools
 
