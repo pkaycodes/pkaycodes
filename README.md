@@ -6,6 +6,16 @@ when the network does not.
 
 ## Featured work
 
+### [Kae — the small shop's memory](https://github.com/pkaycodes/kae) · [Live demo](https://pkaycodes.github.io/kae/?demo=1)
+
+An offline-first credit ledger for small shops, built as a React 19 + TypeScript
+PWA. Shopkeepers record credit and part payments, see who owes what, send
+WhatsApp reminders and export statements or a JSON backup. No account, server or
+network required; the demo opens a sample shop and saves everything on the
+device. Tested with Vitest and deployed to GitHub Pages from CI.
+
+`React` · `TypeScript` · `PWA` · `Vite` · `Vitest`
+
 ### [CTMS — College Tutorial Management System](https://github.com/pkaycodes/college-tutorial-management-system-thesis)
 
 My final-year thesis: a Django application for tutorial scheduling, attendance,
@@ -50,7 +60,7 @@ download queue as video.
 
 ## Tools
 
-Python · Django · Node.js · Express · PostgreSQL · SQLite · React · JavaScript ·
-HTML/CSS · Git
+Python · Django · Node.js · Express · PostgreSQL · SQLite · React · TypeScript ·
+JavaScript · Vite · HTML/CSS · Git
 
 Accra, Ghana
