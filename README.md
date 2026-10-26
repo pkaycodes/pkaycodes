@@ -1,8 +1,8 @@
 # Papakwame Afrifa Mensa
 
-I build full-stack web applications in Accra, Ghana — Django or Node on the
-server, React or plain HTML/CSS on the client. I like systems that keep working
-when the network does not.
+I build full-stack web applications and small developer tools in Accra, Ghana —
+Django or Node on the server, React or plain HTML/CSS on the client. I like
+systems that keep working when the network does not.
 
 ## Featured work
 
@@ -15,6 +15,17 @@ network required; the demo opens a sample shop and saves everything on the
 device. Tested with Vitest and deployed to GitHub Pages from CI.
 
 `React` · `TypeScript` · `PWA` · `Vite` · `Vitest`
+
+### [Shipcheck — does your repository look ready to ship?](https://github.com/pkaycodes/shipcheck)
+
+A zero-dependency Node CLI and GitHub Action that audits the things a stranger
+sees first: README, license, tests, CI, hard-coded secrets, `.gitignore`,
+environment hygiene, package metadata and lockfiles. It returns a weighted
+score, a letter grade and specific next steps, with JSON output for automation.
+Tested on Node 20, 22 and 24; the package is npm-ready and the action is usable
+as `pkaycodes/shipcheck@v1`.
+
+`Node.js` · `CLI` · `GitHub Actions` · `Security` · `Zero dependencies`
 
 ### [CTMS — College Tutorial Management System](https://github.com/pkaycodes/college-tutorial-management-system-thesis)
 
@@ -61,6 +72,6 @@ download queue as video.
 ## Tools
 
 Python · Django · Node.js · Express · PostgreSQL · SQLite · React · TypeScript ·
-JavaScript · Vite · HTML/CSS · Git
+JavaScript · Vite · Vitest · HTML/CSS · GitHub Actions · Git
 
 Accra, Ghana
