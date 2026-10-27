@@ -1,10 +1,33 @@
 # Papakwame Afrifa Mensa
 
-I build full-stack web applications and small developer tools in Accra, Ghana —
-Django or Node on the server, React or plain HTML/CSS on the client. I like
-systems that keep working when the network does not.
+I build full-stack web applications, local-first products and small developer
+tools in Accra, Ghana — and run [Mejo Labs](https://pkaycodes.github.io/mejo-labs/),
+a software studio for businesses that need useful internal systems. Django or
+Node on the server, React or plain HTML/CSS on the client. I like systems that
+keep working when the network does not.
 
 ## Featured work
+
+### [Sharkbook — private lending, properly recorded](https://github.com/pkaycodes/sharkbook) · [Live demo](https://pkaycodes.github.io/sharkbook/?demo=1)
+
+An offline-first ledger for private lenders. Borrowers and facilities, flat and
+reducing-balance schedules calculated to the pesewa, part payments, balances and
+receivables aging all reconcile to the same book. Every agreement and numbered
+receipt prints as a clean A4 document. The 39-test suite covers money and date
+parsing, schedules, statuses, aging, browser storage, onboarding and the payment
+journey.
+
+`React 19` · `TypeScript` · `Vite` · `PWA` · `Vitest`
+
+### [Sukuu — school fees, clearly](https://github.com/pkaycodes/sukuu) · [Live demo](https://pkaycodes.github.io/sukuu/?demo=1)
+
+A calm fee book for small schools. Set up terms and classes, bill students,
+record part payments and print receipts, with per-student discounts and
+historical billing snapshots so changing a fee today never rewrites last term's
+books. It runs from the browser, installs as a PWA and keeps working offline. No
+account, server or subscription.
+
+`React 19` · `TypeScript` · `Vite` · `PWA` · `Vitest`
 
 ### [Kae — the small shop's memory](https://github.com/pkaycodes/kae) · [Live demo](https://pkaycodes.github.io/kae/?demo=1)
 
@@ -15,6 +38,26 @@ network required; the demo opens a sample shop and saves everything on the
 device. Tested with Vitest and deployed to GitHub Pages from CI.
 
 `React` · `TypeScript` · `PWA` · `Vite` · `Vitest`
+
+### [Same Page — different desires, shared understanding](https://github.com/pkaycodes/same-page)
+
+A working, responsive dating beta built around intentions instead of a public
+photo feed. Verified phone numbers, server-enforced eligibility gates,
+text-only conversations, privacy controls that change the query, and a
+compatibility score whose weights and reasons are visible. The app and its
+tests are public; commercial proposals, wireframes and vendor records stay
+private.
+
+`Next.js 16` · `PostgreSQL` · `TypeScript` · `Product design`
+
+### [Mejo Labs — any system, built for your business](https://github.com/pkaycodes/mejo-labs) · [Live site](https://pkaycodes.github.io/mejo-labs/)
+
+The online home of my software studio in Accra. A typographic, dependency-free
+static site for custom software, internal systems and IT solutions, with real
+project links, direct contact routes, structured data and a custom 404. No
+framework, build step, tracker or third-party runtime script.
+
+`HTML` · `CSS` · `JavaScript` · `GitHub Pages`
 
 ### [Shipcheck — does your repository look ready to ship?](https://github.com/pkaycodes/shipcheck)
 
