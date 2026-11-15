@@ -3,10 +3,56 @@
 I build full-stack web applications, local-first products and small developer
 tools in Accra, Ghana — and run [Mejo Labs](https://pkaycodes.github.io/mejo-labs/),
 a software studio for businesses that need useful internal systems. Django or
-Node on the server, React or plain HTML/CSS on the client. I like systems that
-keep working when the network does not.
+Node on the server, React or plain HTML/CSS on the client, with PostgreSQL,
+SQLite and Cloudflare underneath. I like systems that keep working when the
+network does not.
 
 ## Featured work
+
+### [Adom Hospital HMS — the whole clinic, in one system](https://github.com/pkaycodes/adom-hospital-hms)
+
+A hospital management system for Ghanaian clinics and small hospitals. Reception
+opens a visit, nursing records vitals, the doctor consults and orders tests or
+drugs, the lab posts results, the pharmacy dispenses, and the cashier takes cash
+or Mobile Money — with NHIS fields, role-based permissions, invoices, receipts,
+low-stock alerts and an audit trail. The server is Express + SQLite, the client
+is React + TypeScript, and the same API also runs as a Cloudflare Worker on D1.
+
+`Node.js` · `Express` · `React` · `TypeScript` · `SQLite` · `Cloudflare D1`
+
+### PKLink — anything you want to share, one scan away
+
+A QR page builder for messages, photo galleries, video, documents and links.
+Publish to a live `/p/<slug>` page in one click, choose public, unlisted,
+password or private access, style the QR code with your own colours and logo,
+then download it as PNG or SVG. Guests can start without an account; signed-in
+users keep their pages across devices and see scans, unique visitors, devices
+and countries. Built on Next.js 16, Cloudflare D1 and R2, with access checks
+enforced on the server. Currently in private beta.
+
+`Next.js 16` · `React 19` · `TypeScript` · `Tailwind CSS 4` · `Cloudflare Workers` · `D1` · `R2`
+
+### [Edgebook — a private P&L journal for traders](https://github.com/pkaycodes/edgebook)
+
+A trading journal for crypto, stocks and forex. Log trades by hand in one
+ledger, then read back net P&L, win rate, profit factor, expectancy, payoff,
+drawdown, streaks, hold times, weekday edge and strategy or symbol breakdowns.
+The dashboard covers 7D through all-time, accounts persist in SQLite, and a
+one-click demo opens 49 deterministic sample trades. No exchange connections or
+API keys.
+
+`React 19` · `TypeScript` · `Vite` · `Express 5` · `node:sqlite`
+
+### [Efie — find a place that feels like home](https://github.com/pkaycodes/efie) · [Live site](https://pkaycodes.github.io/efie/)
+
+A rental marketplace for Ghana. Landlords post houses, apartments, hostels,
+single rooms and short stays; renters search by area, type, price, bedrooms and
+furnishing, see the rent and deposit up front, and contact the landlord directly
+on WhatsApp or by phone. Saved homes persist in the browser, photos are
+compressed before upload, and Supabase can power shared listings when a backend
+is configured.
+
+`React 19` · `TypeScript` · `Vite` · `Supabase` · `GitHub Pages`
 
 ### [Sharkbook — private lending, properly recorded](https://github.com/pkaycodes/sharkbook) · [Live demo](https://pkaycodes.github.io/sharkbook/?demo=1)
 
@@ -106,6 +152,13 @@ download queue as video.
 
 `Node.js` · `HTTP` · `HLS`
 
+## More work
+
+- **[MotorVault](https://github.com/pkaycodes/motorvault)** · [Live preview](https://pkaycodes.github.io/motorvault/) — a car rental marketplace prototype for Ghana, with date-aware search, a full booking flow and a host listing flow. `HTML` · `CSS` · `JavaScript`
+- **[Tiptoes Ghana](https://github.com/pkaycodes/tiptoes-ghana)** · [Live site](https://pkaycodes.github.io/tiptoes-ghana/) — an editorial storefront for a personal shopper, with a small Node server that syncs a live Instagram feed.
+- **[AM Homecare & Nursing Home](https://github.com/pkaycodes/am-homecare)** · [Live site](https://pkaycodes.github.io/am-homecare/) — a one-page site for home care and nursing services in Ofankor, Accra.
+- **Gambler's Friend** — a private betting ledger with cross-device sync and Coach Solo, an in-app analyst that reads the book without giving tips. Currently in private beta.
+
 ## Coursework
 
 - **[C# coursework](https://github.com/pkaycodes/csharp-coursework)** —
@@ -115,6 +168,7 @@ download queue as video.
 ## Tools
 
 Python · Django · Node.js · Express · PostgreSQL · SQLite · React · TypeScript ·
-JavaScript · Vite · Vitest · HTML/CSS · GitHub Actions · Git
+JavaScript · Vite · Vitest · Tailwind CSS · Cloudflare Workers · D1 · R2 ·
+HTML/CSS · GitHub Actions · Git
 
 Accra, Ghana
