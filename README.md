@@ -20,7 +20,7 @@ is React + TypeScript, and the same API also runs as a Cloudflare Worker on D1.
 
 `Node.js` · `Express` · `React` · `TypeScript` · `SQLite` · `Cloudflare D1`
 
-### PKLink — anything you want to share, one scan away
+### [PKLink — anything you want to share, one scan away](https://github.com/pkaycodes/pklink) · [Live site](https://site-1e61daf990414aa78567f4776a59d442.freebuff.page/)
 
 A QR page builder for messages, photo galleries, video, documents and links.
 Publish to a live `/p/<slug>` page in one click, choose public, unlisted,
@@ -28,7 +28,7 @@ password or private access, style the QR code with your own colours and logo,
 then download it as PNG or SVG. Guests can start without an account; signed-in
 users keep their pages across devices and see scans, unique visitors, devices
 and countries. Built on Next.js 16, Cloudflare D1 and R2, with access checks
-enforced on the server. Currently in private beta.
+enforced on the server.
 
 `Next.js 16` · `React 19` · `TypeScript` · `Tailwind CSS 4` · `Cloudflare Workers` · `D1` · `R2`
 
